@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FRONTMATTER
+
+\documentclass[]{vikhari-cv} % Template called: vikhari-cv.cls
+\begin{document}
+\makeheader{Anonymous}
+
+% argument to environment should match number of sites
+\begin{header}{1}
+    % leave third argument empty to specify no hyperlink
+    \site{WhoAmI}{You}{http://letmegooglethat.com/?q=you}
+    \site
+        {Email}
+        {u@tube.com}
+        {mailto:u@tube.com}
+    \site{Phone}{Cal-MeM-aybe}{tel:12256362923}
+    \site{Location}{Timbuktu}{https://en.wikipedia.org/wiki/Timbuktu}
+    \sitepic
+        {\begin{minipage}{0cm}
+            \raisebox{-0.3\height}{\includegraphics[height=0.35cm]{resources/images/li-logo-icon.png}}
+        \end{minipage}}
+        {\quad /hitmeup}
+        {https://www.linkedin.com/in/fakeprof}
+    \\
+\end{header}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TAGS
+
+\begin{topic}{testing TESTING}
+    \entryTwo{\emph{1 / two / III}}{
+        \hyperlink{https://www.google.com/doodles/dr-seuss-105th-birthday}{FISH},
+        \vhphype{htpublications}{FISH},
+        
+        \vhphref[vhpcyan]{https://media.giphy.com/media/10fFT7qzHrN0D6/giphy.gif}{Caught},
+        \vhphref[vhpgreen]{https://images2.minutemediacdn.com/image/upload/c_crop,h_567,w_1008,x_0,y_0/f_auto,q_auto,w_1100/v1555155341/shape/mentalfloss/501587-amazon.jpg}{a fish},
+        \vhphref[vhppurple]{https://www.youtube.com/watch?v=IPKAwJKGSDc}{alive...},
+        \vhphref[vhpyellow]{}{Down the spout again! :( }
+    }
+\end{topic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EXPERIENCE
+
+\hrulefill\\[1ex]
+\begin{topic}{Experience}
+    \entryFour{Double Blinded}{2000 - Y2K}
+    {LaTeX Wiz}
+    {Semi-saucy stuff, but unfulfilled, thus giving this to you!}
+
+    \entryFour{Mr. Robot}{1970 - Y2K}
+    {H4CK3R}
+    {Hacked the planet with phat phone freaking fuzzers. Read about my super pseudo science under the \vhphype{htpublications}{papers section.}}
+\end{topic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+
+
+\begin{topic}{Courses}
+    \entryTwo{\emph{Video Game High School}}{
+        \begin{itemize}
+        \setlength\itemsep{0em}
+            \vspace{0.25em}
+            \item VHP 101 - V for Vendetta
+            \item VHP 789 - Very Tough Vlogging
+            \item VHP 9000 - Increase Your Power
+        \end{itemize}}
+\end{topic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PUBLICATIONS
+
+\hrulefill\\[1ex]
+\begin{topic}{Publications}
+\hypertarget{htpublications}{}
+    \entryThree{Asimov's Encyclopedia}{1969}
+    {HackerCat, et al. Freaking Cool Code. (Asimov's Encyclopedia, 3, 1969-9691}
+\end{topic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PERSONAL STATEMENT
+
+\hrulefill\\[1ex]
+\begin{topic}{Personal Statement}
+    \entryOne{I want to be the very best, like no one ever was! Help me get there pwetty pweez.}
+\end{topic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
