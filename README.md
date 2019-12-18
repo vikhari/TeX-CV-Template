@@ -1,4 +1,5 @@
-# This is an altered version of knyte's original ideas. Original ReadMe shown below.
+# This is an altered version of knyte's original ideas.
+# Original ReadMe shown below.
 
 
 
