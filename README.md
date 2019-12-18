@@ -1,6 +1,7 @@
 # A TeX Template for CVs/Resumes
 
 The example can be [found here](https://github.com/vikhari/latex-cv-template/blob/master/vikhari-cv-example.pdf).
+Be sure to download and view in a PDF viewer to have working hyperlinks (some comical easter eggs are in there).
 
 # Original ReadMe (from knyte)
 
