@@ -1,3 +1,9 @@
+# This is an altered version of knyte's original ideas. Original ReadMe shown below.
+
+
+
+
+
 # resume
 
 A single-column XeTeX resume template with lots of breathing room and a simple
